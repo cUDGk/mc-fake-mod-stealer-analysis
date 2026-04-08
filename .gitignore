@@ -1,0 +1,32 @@
+# 解析対象のマルウェアサンプルは絶対にコミットしない
+*.jar
+*.class
+Module.jar
+MoneyDupeXLimit*
+Comet*
+ref_upper.dat
+
+# 一時抽出ファイル
+extracted/
+samples/
+quarantine/
+
+# 解析中のメモ・スクラッチ
+scratch/
+*.tmp
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
